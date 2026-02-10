@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0a1f44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #142b5c;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #0a1f44;
+}
+
+footer {
+    background-color: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 15px 0;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    margin-top: 15px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+form input[type="submit"] {
+    background-color: #142b5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffd700;
+    color: black;
+}
